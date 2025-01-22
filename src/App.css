@@ -1,0 +1,32 @@
+.neucha-regular {
+    font-family: "Neucha", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.title {
+    font-family: "Neucha", serif;
+    font-weight: 1000;
+}
+.square {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    transition-duration: 0.4s;
+    font-size: 50px;
+
+    }
+  
+.square:hover {
+  background-color: black;
+  color: white;
+    }
+
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    }
